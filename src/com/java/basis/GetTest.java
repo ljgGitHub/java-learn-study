@@ -16,7 +16,7 @@ public class GetTest {
 		@Override
 		public void run() {
 			try {
-				URL url = new URL("http://fanyi.youdao.com/openapi.do?keyfrom=mytestdghszg&key=704515641&type=data&doctype=xml&version=1.1&q=welcome");
+				URL url = new URL("http://fanyi.youdao.com/openapi.do?keyfrom=mytestdghszg&key=704515641&type=data&doctype=json&version=1.1&q=love");
 				URLConnection connection = url.openConnection();
 				InputStream is = connection.getInputStream();
 				InputStreamReader isr = new InputStreamReader(is,"UTF-8");

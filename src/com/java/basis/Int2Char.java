@@ -9,7 +9,7 @@ package com.java.basis;
  */
 public class Int2Char {
 	public static void main(String[] args) {
-		char c=65;//输出65对应的ASCII码-A
+		char c=65;//输出65对应的ASCII码A
 		int i='B';//输出B对应的ASCII码值66
 		System.out.println(c+","+i);
 		System.out.println((char)100);
